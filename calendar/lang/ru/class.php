@@ -1,0 +1,23 @@
+<?
+$MESS['REGISTER_ERROR_DATE'] = 'Регистрация недоступна, данное мероприятие уже прошло';
+$MESS['REGISTER_ERROR_ORGANIZATOR'] = 'Регистрация запрещена. Организатор не может зарегистрироваться на собственное мероприятие';
+$MESS['REGISTER_ERROR_SPEAKER'] = 'Регистрация запрещена. Спикер мероприятия не может зарегистрироваться на своё мероприятие';
+$MESS['REGISTER_ERROR_BP'] = 'Регистрация запрещена. Текущий статус по мероприятию: #STATUS#';
+$MESS['REGISTER_EVENT_OLD'] = 'Вы уже зарегистрированы на это мероприятие';
+$MESS['REGISTER_EVENT_ORGANIZATOR'] = 'Вы организатор мероприятия';
+$MESS['REGISTER_EVENT_SPEAKER'] = 'Вы спикер мероприятия';
+$MESS['REGISTER_EVENT_STATUS_INPROGRESS'] = 'Ожидает согласования';
+$MESS['REGISTER_EVENT_STATUS_SUCCESS'] = 'Вы записаны';
+$MESS['REGISTER_EVENT_CURRENT_USER'] = 'Вы записаны на данное время. Чтобы отменить регистрацию, кликните внизу «Отменить регистрацию»';
+$MESS['REGISTER_EVENT_LIMIT_SLOT'] = 'Запись на данное время уже недоступна';
+$MESS['REGISTER_EVENT_MAX_REGISTER'] = 'Запись на мероприятие приостановлена.<br> Набрано максимальное количество участников.';
+$MESS['REGISTER_EVENT_REGISTER_DEDPLINE_TIME'] = 'Запись до ';
+$MESS['BTN_REGISTER'] = 'Зарегистрироваться';
+$MESS['BTN_CALENDAR'] = 'Перейти к календарю';
+$MESS['BTN_CANCEL'] = 'Отменить регистрацию';
+$MESS['BTN_MSG_COUNT_SLOT'] = 'Запись на мероприятие ограничена. Максимальное количество участников – #COUNT_USER_TO_SLOT# #PIP# на каждый слот.';
+$MESS['EMPTY_TIME_SLOT'] = 'Слот доступен для регистрации';
+$MESS['REGISTER_NO'] = 'На данное мероприятие запись не требуется';
+$MESS['REGISTER_ANOTHER_SLOT'] = 'Вы уже записаны на другое время. Чтобы изменить время записи, кликните внизу «Отменить регистрацию»';
+$MESS['REGISTER_CLOSE'] = 'Запись на мероприятие приостановлена';
+$MESS['CURRENT_ITEM_CHAIN'] = 'Календарь мероприятий';

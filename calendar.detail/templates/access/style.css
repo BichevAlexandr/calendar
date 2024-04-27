@@ -1,0 +1,90 @@
+.popup-window {
+    background-color: #fff;
+}
+
+.ui-page-slider-wrapper-default-theme {
+    background: #ffffff !important;
+}
+.event-popup__addManaged{
+  position: relative;
+  padding-left: 18px;
+}
+.event-popup__addManaged:before{
+  content:'';
+  display:block;
+  width:10px;
+  height:18px;
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAiIGhlaWdodD0iMTAiIHZpZXdCb3g9IjAgMCAxMCAxMCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTkuNjA5MzggNC42MDkzOEg1LjM5MDYzVjAuMzkwNjI1QzUuMzkwNjMgMC4xNzQ4ODMgNS4yMTU3NCAwIDUgMEM0Ljc4NDI2IDAgNC42MDkzOCAwLjE3NDg4MyA0LjYwOTM4IDAuMzkwNjI1VjQuNjA5MzhIMC4zOTA2MjVDMC4xNzQ4ODMgNC42MDkzOCAwIDQuNzg0MjYgMCA1QzAgNS4yMTU3NCAwLjE3NDg4MyA1LjM5MDYzIDAuMzkwNjI1IDUuMzkwNjNINC42MDkzOFY5LjYwOTM4QzQuNjA5MzggOS44MjUxMiA0Ljc4NDI2IDEwIDUgMTBDNS4yMTU3NCAxMCA1LjM5MDYzIDkuODI1MTIgNS4zOTA2MyA5LjYwOTM4VjUuMzkwNjNIOS42MDkzOEM5LjgyNTEyIDUuMzkwNjMgMTAgNS4yMTU3NCAxMCA1QzEwIDQuNzg0MjYgOS44MjUxMiA0LjYwOTM4IDkuNjA5MzggNC42MDkzOFoiIGZpbGw9IiM4QUI3NEUiLz4KPC9zdmc+Cg==);
+  position:absolute;
+  left:0;
+  top:0;
+  background-repeat: no-repeat;
+  background-position: center;
+
+}
+.event-popup__manager.visible{
+  margin-bottom: 15px;
+}
+
+.input-user_event-calendar.input-user {
+  margin-left: 0 !important;
+  display: flex;
+}
+
+.input-user_event-calendar .input-user__image {
+  width: 48px;
+  min-width:48px;
+  height: 48px;
+  border-radius: 24px;
+  margin-right: 16px;
+  margin-top: 10px;
+  overflow: hidden;
+  position: relative;
+}
+
+.input-user_event-calendar .input-user__image img {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  right: 0;
+  left: 0;
+  margin: 0 auto;
+}
+
+.input-user_event-calendar .input-user__details {
+  margin: 10px 0 0;
+}
+
+.input-user_event-calendar .input-user__name {
+  font-size: 16px;
+  line-height: 20px;
+  padding: 0 0 4px;
+  color: #32434D;
+  display:block;
+}
+
+.input-user_event-calendar .input-user__position {
+  font-size: 16px;
+  line-height: 16px;
+  letter-spacing: 0.1px;
+  color: var(--domrf-grey__500);
+  display:block;
+}
+
+.required {
+  color: var(--accent-color__red);
+}
+
+.event-popup__notification {
+  display: flex;
+  align-items: flex-start;
+  padding: 0;
+}
+
+.event-popup__notification img {
+  margin-right: 8px;
+}
+
+.event-popup__notification span {
+  font-size: 16px;
+}
